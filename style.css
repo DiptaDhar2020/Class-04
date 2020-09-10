@@ -1,0 +1,526 @@
+/*Global CSS Section*/
+*{
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Quicksand', sans-serif;
+}
+p, span, input, button, li{
+	font-family: 'Roboto', sans-serif;
+}
+a:hover, a{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+.container{
+	width: 1080px;
+	margin: 0 auto;
+}
+/*header section css*/
+.header{
+	width: 100%;
+	margin: 20px 20px;
+}
+.logo span{
+	font-size: 24px;
+    font-weight: bold;
+    margin-left: 4px;
+    vertical-align: middle;
+}
+.logo img{
+	vertical-align: middle;
+}
+/*banner section CSS*/
+.banner-info{
+	width: 100%;
+	float: left;
+}
+.banner-left{
+	width: 55%;
+	float: left;
+}
+.banner-right{
+	width: 45%;
+	float: right;
+}
+.left-content{
+	padding: 60px 12px;
+}
+.left-content h1{
+	font-size: 44px;
+	font-weight: 500;
+	font-weight: bold;
+	color: #1c1e2e;
+}
+.left-content p{
+	font-size: 20px;
+	color: #4c527d;
+	margin: 20px 0;
+}
+.banner-button{
+	margin: 15px 0;
+}
+.banner-button button{
+	padding: 16px 35px;
+	border-radius: 32px;
+	outline: none;
+	border: 2px solid #ed6524;
+	font-size: 18px;
+	font-weight: 600;
+}
+.banner-button .left-button{
+	background: #ed6524;
+	color: white;
+}
+.banner-button .right-button{
+	background: transparent;
+	color: #ed6524;
+	margin-left: 10px;
+	transition: all 0.4s ease-in-out;
+}
+.banner-button .right-button:hover{
+	 background: #ed6524;
+	 color: white;
+	 cursor: pointer;
+	 transition: 0.4s ease-in-out;
+}
+
+.banner-button .left-button:hover{
+	cursor: pointer;
+}
+.comment{
+	margin: 50px 50px 0 0;
+}
+.comment-box{
+	width: 100%;
+	background: #f6f8fc;
+	padding: 20px 30px;
+	border-left: 4px solid #f5a782;
+	position: relative;
+}
+.comment-box p{
+	font-size: 16px;
+	font-style: italic;
+	color: #4c527d;
+}
+.box-icon{
+	width: 30px;
+	height: 30px;
+	background: #f6f8fc;
+	position: absolute;
+	bottom: -20;
+	left: 30px;
+	transform: rotate(45deg);
+
+}
+.comment-user{
+	width: 100%;
+	float: left;
+}
+.user-left{
+	width: 30%;
+	float: left;
+}
+.user-right{
+	width: 70%;
+	float: right;  
+}
+.user-left img{
+	margin: 20px;
+}
+.user-desc{
+	margin:32px -60px;
+}
+.user-desc p{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+.right-content{
+	position: relative;
+}
+.book-circle{
+	width: 120px;
+	height: 120px;
+	background: #5cb377;
+	border-radius: 100%;
+	position: absolute;
+    top: -32px;
+    right: 10px;
+}
+.book-circle h3{
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 23px;
+}
+.book-link{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.book-link a{
+	text-decoration: underline;
+	font-size: 18px;
+	color: #1c1e2e;
+}
+.book-link a:hover{
+	color: #ed6524;
+}
+/*service section CSS*/
+.service{
+	width: 100%;
+	display: flow-root;
+	background-image: linear-gradient(to bottom, #f6f8fc 0%, #fff 70%);
+	background-repeat: repeat-x;
+	padding: 80px 0;
+}
+.service-title{
+	text-align: center;
+}
+.service-title h1{
+	font-size: 40px;
+	margin-bottom: 20px;
+	color: #1c1e2e;
+}
+.service-title p{
+	font-size: 22px;
+	color: #4c527d;	
+}
+.service-gallery{
+	margin-top: 70px;
+	width: 100%;
+	float: left;
+}
+.service-gallery-2{
+	width: 100%;
+	float: left;
+}
+.item{
+	width: 33%;
+	float: left;
+}
+.item-desc{
+	text-align: center;
+	padding: 30px;
+}
+.item-desc h3{
+	color: #1c1e2e;
+	margin: 5px 0 20px 0;
+}
+.item-desc p{
+	font-size: 16px;
+	color: #4c527d;
+}
+.item-desc i{
+	color: #ed6524;
+	font-size: 48px;
+}
+/*included section CSS*/
+.included{
+	width: 100%;
+	display: flow-root;
+	padding: 0 38px;
+	text-align: center;
+
+}
+.included-title h1{
+	font-size: 40px;
+	color: #1c1e2e;
+	margin-bottom: 25px;
+	margin-right: 94px;
+
+}
+.included-details{
+	width: 100%;
+	float: left;
+}
+.details-left{
+	width: 50%;
+	float: left;
+}
+.details-left img{
+	padding: 30px;
+	margin-left: 45px;
+}
+.list{
+	padding: 30px 18px;
+	text-align: left;
+}
+.details-right{
+	width: 50%;
+	float: right;
+}
+.details-right i{
+	color: #7FCDB8;
+	height: 16px;
+	width: 16px;
+	text-align: center;
+	margin-right: 10px;
+}
+.details-right li{
+	color: #4c527d;
+	font-size: 18px;
+	line-height: 40px;
+}
+.want-button button{
+	background: #ed6524;
+	font-weight: 600;
+	padding: 15px 36px;
+	border-radius: 32px;
+	border: none;
+	color: white;
+	font-size: 16px;
+	outline: none;
+	margin: 30px;
+}
+/*who section CSS*/
+.who{
+	width: 100%;
+	display: flow-root;
+}
+.who-head{
+	text-align: center;
+	margin-top: 50px;
+}
+.who-head h1{
+	font-size: 40px;
+	color: #1c1e2e;
+	margin: 20px;
+}
+.who-head p{
+	font-size: 20px;
+	color: #4c527d;
+	margin-bottom: 50px;
+}
+.for-who{
+	width: 70%;
+	display: flow-root;
+	float: right;
+	margin-bottom: 25px;
+}
+.for-left{
+	width: 5%;
+	float: left;
+}
+.for-right{
+	width: 60%;
+	float: left;
+}
+.for-left i{
+	font-size: 20px;
+	color: #7FCDB8;
+	margin: 6px 0
+}
+.for-right h4{
+	font-size: 18px;
+	color: #1c1e2e;
+	margin-bottom: 8px;
+}
+.for-right p{
+	color: #4c527d;
+	font-size: 16px;
+}
+/*preview section CSS*/
+.get{
+	width: 100%;
+	display: flow-root;
+	margin: 50px 0;
+}
+.get-box{
+	background: #f6f8fc;
+	height: 170px;
+	width: 660px;
+	margin: 0px auto;
+	margin: 0px 175px;
+	padding: 48px !important;
+	text-align: center;
+}
+.get-box h1{
+	color: #1c1e2e;
+	margin-bottom: 8px;
+}
+.get-box p{
+	color: #4c527d;
+	margin-bottom: 16px;
+}
+.get-box input{
+	width: 400px;
+    padding: 18px 12px;
+	border: 1.5px solid;
+    border-color: #e3e9f6;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+.get-box button{
+    background: #ed6524;
+    color: white;
+    padding: 18px 25px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    margin-left: 5px;
+    cursor: pointer;
+}
+/*Review section CSS*/
+.review{
+	width: 100%;
+	text-align: center;
+}
+.review-head{
+	text-align: center;
+	margin-left: 50px;
+}
+.review-head h1{
+	font-size: 40px;
+	color: #1c1e2e;
+	margin-bottom: 8px;
+}
+.review-head p{
+	font-size: 20px;
+	color: #4c527d;
+	margin-bottom: 48px;
+}
+.review-top{
+	width: 100%;
+	margin-left: 35px;
+}
+.review-bottom{
+	width: 100%;
+    margin-left: 212px;
+}
+.review-float{
+	width: 33%;
+	float: left;
+}
+.review-float-2{
+	width: 33%;
+	float: left;
+	margin: 55px 0;
+}
+.review-box{
+	width: 100%;
+	background: #f6f8fc;
+	height: 170px;
+	width: 300px;
+	border-radius: 4px;
+	position: relative;
+	padding: 16px;
+}
+.quote i{
+	position: absolute;
+	top: -20px;
+    left: 150px;
+    width: 36px;
+    height: 36px;
+    background: #f5a782;
+    color: white;
+    text-align: center !important;
+    border-radius: 100%;
+    line-height: 36px;
+}
+.review-desc p{
+	font-style: italic;
+    color: #4c527d;
+    font-size: 16px;
+    text-align: left;
+    padding: 18px 0;
+}
+.reviewer{
+	width: 100%;
+	float: left;
+}
+.reviewer-left{
+	width: 15%;
+	float: left;
+}
+.reviewer-right{
+	width: 80%;
+	float: left;
+	margin: -56px 75px;
+}
+.reviewer-right p{
+	text-align: left;
+	font-size: 14px;
+	color: #4c527d;
+}
+.get-button button{
+	background: #ed6524;
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 15px 40px;
+	border: none;
+	border-radius: 32px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	margin-left: 35px;
+	margin-bottom: 48px;
+}
+/*Author section CSS*/
+.author{
+	width: 100%;
+	display: flow-root;
+	background: #ed6524;
+}
+.author-details{
+	text-align: center;
+	padding: 48px 0;
+}
+.author-pic img{
+    margin-top: 15px;
+    margin-bottom: 48px;
+    margin-left: 25px;
+	height: 150px;
+	width: 150px;
+}
+.author-about h2{
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	margin-bottom: 16px;
+    margin-left: 48px;
+}
+.author-about{
+	padding: 0px 180px;
+}
+.author-about p{
+	text-align: left;
+	color: white;
+    word-spacing: 1px;
+}
+.author-about p a{
+	text-decoration: underline;
+	color: white;
+}
+.follow h5{
+	color: white;
+	font-size: 20px;
+    margin-top: 48px;
+	margin-left: 48px;
+}
+.social-icon{
+	margin-left: 48px;
+    margin-top: 24px;
+}
+.social-icon i{
+    padding: 10px 0;
+}
+.social-icon li{
+	list-style: none;
+	display: inline-block;
+	width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.1);
+    margin: 0 5px;
+}
+.social-icon li a{
+	color: white;
+}
